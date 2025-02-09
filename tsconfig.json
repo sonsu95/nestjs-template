@@ -22,14 +22,5 @@
       "@/*": ["src/*"],
       "@root/*": ["*"]
     }
-  },
-  "include": [
-    "**/*.ts",
-    "**/*.tsx",
-    "**/*.js",
-    "**/*.mjs",
-    "eslint.config.mjs",
-    "prettier.config.mjs"
-  ],
-  "exclude": ["node_modules"]
+  }
 }

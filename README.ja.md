@@ -58,7 +58,7 @@ pnpm run test:e2e
 │   ├── app.e2e-spec.ts      # E2Eテスト
 │   └── jest-e2e.json        # Jest E2E設定
 ├── eslint.config.mjs        # ESLint flat設定
-├── prettier.config.mjs      # Prettier設定
+├── .prettierrc     # Prettier設定
 ├── nest-cli.json           # NestJS CLI設定
 ├── tsconfig.json           # TypeScript設定
 ├── tsconfig.build.json     # TypeScriptビルド設定

@@ -66,16 +66,16 @@ pnpm run format
 │   ├── app.controller.ts     # Main application controller
 │   ├── app.service.ts        # Main application service
 │   ├── app.module.ts         # Root application module
-│   └── main.ts              # Application entry point
+│   └── main.ts               # Application entry point
 ├── test/                     # Test files
-│   ├── app.e2e-spec.ts      # E2E tests
-│   └── jest-e2e.json        # Jest E2E configuration
-├── eslint.config.mjs        # ESLint flat configuration
-├── prettier.config.mjs      # Prettier configuration
-├── nest-cli.json           # NestJS CLI configuration
-├── tsconfig.json           # TypeScript configuration
-├── tsconfig.build.json     # TypeScript build configuration
-└── package.json            # Project dependencies and scripts
+│   ├── app.e2e-spec.ts       # E2E tests
+│   └── jest-e2e.json         # Jest E2E configuration
+├── .eslint.config.mjs        # ESLint flat configuration
+├── .prettierrc               # Prettier configuration
+├── nest-cli.json             # NestJS CLI configuration
+├── tsconfig.json             # TypeScript configuration
+├── tsconfig.build.json       # TypeScript build configuration
+└── package.json              # Project dependencies and scripts
 ```
 
 ## Code Style Guide

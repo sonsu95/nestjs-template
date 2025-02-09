@@ -53,16 +53,16 @@ pnpm run test:e2e
 │   ├── app.controller.ts     # 메인 애플리케이션 컨트롤러
 │   ├── app.service.ts        # 메인 애플리케이션 서비스
 │   ├── app.module.ts         # 루트 애플리케이션 모듈
-│   └── main.ts              # 애플리케이션 진입점
+│   └── main.ts               # 애플리케이션 진입점
 ├── test/                     # 테스트 파일
-│   ├── app.e2e-spec.ts      # E2E 테스트
-│   └── jest-e2e.json        # Jest E2E 설정
-├── eslint.config.mjs        # ESLint flat 설정
-├── prettier.config.mjs      # Prettier 설정
-├── nest-cli.json           # NestJS CLI 설정
-├── tsconfig.json           # TypeScript 설정
-├── tsconfig.build.json     # TypeScript 빌드 설정
-└── package.json            # 프로젝트 의존성 및 스크립트
+│   ├── app.e2e-spec.ts       # E2E 테스트
+│   └── jest-e2e.json         # Jest E2E 설정
+├── eslint.config.mjs         # ESLint flat 설정
+├── .prettierrc               # Prettier 설정
+├── nest-cli.json             # NestJS CLI 설정
+├── tsconfig.json             # TypeScript 설정
+├── tsconfig.build.json       # TypeScript 빌드 설정
+└── package.json              # 프로젝트 의존성 및 스크립트
 ```
 
 ## 코드 스타일 가이드
